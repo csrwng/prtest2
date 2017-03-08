@@ -1,5 +1,5 @@
 node {
    stage("First") {
-      echo "hello world"
+      echo "my own change"
    }
 }
