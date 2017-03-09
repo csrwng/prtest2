@@ -4,5 +4,7 @@ node {
    }
    stage("second") {
       echo "another stage"
+      sh "env"
+      echo "hello world"
    }
 }
